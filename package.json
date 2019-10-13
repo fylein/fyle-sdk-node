@@ -1,0 +1,22 @@
+{
+    "name": "fyle-sdk-node",
+    "version": "1.0.0",
+    "description": "Node SDK for Fyle",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fylein/fyle-sdk-node.git"
+    },
+    "author": "Sivaramakrishnan Narayanan <siva@fyle.in> (https://www.fylehq.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fylein/fyle-sdk-node/issues"
+    },
+    "homepage": "https://github.com/fylein/fyle-sdk-node#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    }
+}
