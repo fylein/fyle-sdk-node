@@ -1,0 +1,31 @@
+{
+    "name": "fyle-sdk-node",
+    "version": "0.1.0",
+    "description": "Node SDK for Fyle",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint ./src --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fylein/fyle-sdk-node.git"
+    },
+    "author": "Sivaramakrishnan Narayanan <siva@fyle.in> (https://www.fylehq.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fylein/fyle-sdk-node/issues"
+    },
+    "homepage": "https://github.com/fylein/fyle-sdk-node#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    }
+}
